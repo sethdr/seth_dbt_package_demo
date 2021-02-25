@@ -1,0 +1,12 @@
+
+config-version: 2
+
+name: 'seth_test'
+version: '0.1.1'
+
+require-dbt-version: [">=0.18.0", "<0.20.0"]
+
+models:
+    visualizations:
+        materialized: ephemeral
+
